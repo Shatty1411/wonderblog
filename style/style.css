@@ -1,0 +1,165 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+html {
+    height: 100%;
+}
+body {
+    line-height: 1;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 80px;
+}
+
+#header_region {
+    margin: 0;
+    padding: 0;
+    border: 2px solid red;
+
+}
+
+#logo img{
+    border: 1px solid;
+    height: 100px;
+}
+#blog_name {
+    float: left;
+    color: white;
+    padding: 0 10px 0 10px;
+}
+
+#header {
+    display: block;
+    background-color: #DB66CC;
+    height: 100px;
+}
+
+#logo {
+
+    float: left;
+}
+
+#register_block{
+    width: auto;
+    float: right;
+}
+
+#login_block{
+    float: right;
+}
+
+#menu_region {
+    background-color: red;
+    height: 40px;
+    padding-top: 10px;
+}
+
+#menu {
+    display: block;
+}
+#menu ul {
+    list-style: none;
+}
+
+#menu li {
+    padding: 10px;
+    float: left;
+    text-decoration: none;
+    list-style: none;
+}
+#menu li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+#content_region {
+    margin-top: 20px;
+}
+
+#main_content {
+    width: 500px;
+
+}
+
+#left_sidebar {
+    float: right;
+}
+
+
+.register_form input {
+    border: 1px solid red;
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.register_form th {
+    padding-top: 20px;
+}
+
+.register_form select {
+    padding-top: 20px;
+    margin-left: 100px;
+    border: 1px solid crimson;
+}
+#footer_region {
+    width: 100%;
+    border: 1px solid green;
+    margin-top: 20px;
+    float: left;
+    position: absolute;
+    bottom: 0;
+}
+
+#adv_image {
+    border: 1px solid black;
+    height: 260px;
+    float: left;
+    padding: 5px;
+}
+
+#adv_image img {
+    width: 300px;
+    border: 1px solid greenyellow;
+    height: 260px;
+    float: left;
+    padding: 5px;
+ }
+
+#register a{
+    border: 2px solid yellow;
+}
+
+h2
